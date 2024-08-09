@@ -1,0 +1,17 @@
+pid:
+  line:
+     p: 0.5
+     i: 0.05
+     d: 0.0
+  angle:
+     p: 15.0
+     i: 3.0
+     d: 0.0
+
+route:
+- position:
+    x: 0.4
+    y: 0.0
+- position:
+    x: 0.1
+    y: -0.1

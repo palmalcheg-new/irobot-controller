@@ -1,0 +1,20 @@
+[package]
+name = "irobot-controller"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+forester-rs = "0.3.1"
+forester-webots = "0.1.0"
+rand = "0.8.5"
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.9"
+nalgebra = "0.32.6"
+kfilter = "*"
+
+[[bin]]
+name = "create_avoid_obstacles"
+path = "src/bin/main.rs"

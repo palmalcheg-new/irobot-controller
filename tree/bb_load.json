@@ -1,0 +1,23 @@
+{
+    "storage": {
+      "proceed": {
+        "Unlocked": true
+      },
+      "threshold": {
+        "Unlocked": 50
+      },
+      "result": {
+        "Unlocked": 0
+      },
+      "stale": {
+        "Unlocked": true
+      },
+      "route" : {
+        "Unlocked" : [
+            { "x" : 0.0 , "y" : 1.0 , "o" : 0.0 },
+            { "x" : 1.0 , "y" : 0.0 , "o" : 90.0 }
+        ]
+      }
+
+    }
+  }

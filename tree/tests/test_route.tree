@@ -1,0 +1,7 @@
+root main test("test")
+
+sequence test(a:string) {
+    t(a)
+}
+
+impl t(k:string);

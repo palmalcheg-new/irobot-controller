@@ -1,0 +1,13 @@
+[tasks.build]
+command = "cargo"
+args = ["build"]
+
+[tasks.copy-to]
+script.main = "cp target/debug/create_avoid_obstacles irobot/controllers/create_avoid_obstacles/create_avoid_obstacles"
+script.post = "echo copy .../create_avoid_obstacles"
+
+[tasks.prepare]
+dependencies = [
+    "build",
+    "copy-to"
+]
